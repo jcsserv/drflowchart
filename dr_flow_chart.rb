@@ -3,7 +3,7 @@ class DrFlowChart
     attr_accessor :temp_flag, :full_flag
 
     def initialize
-        puts "Turning ON HOT/OLD Taps"
+        puts "Turning ON HOT/COLD Taps"
         turn_on_taps
     end
   
