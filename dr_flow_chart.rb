@@ -19,7 +19,7 @@ class DrFlowChart
             @temp_flag=gets.chomp
             check_if_too_hot_cold(@temp_flag)
         elsif flag.downcase == "y" then
-            puts "Adjusting HOT/OLD Taps"
+            puts "Adjusting HOT/COLD Taps"
             turn_on_taps
         elsif flag.downcase == 'n' then
             wait_for_2_minutes
